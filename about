@@ -1,0 +1,16 @@
+#2015-06-28
+第一个版本，仅仅使用yum安装软件
+安装了 apache php mysql
+
+root用户的密码默认为root
+
+共享文件，容器内的/var/data目录需共享到主机
+/var/data/db mysql数据文件 
+/var/data/log 日记目录
+/var/data/etc/www.conf apache配置文件
+/var/data/etc/php.ini php配置文件
+
+需要映射的端口
+22 端口 tcp
+80 端口 tcp
+
