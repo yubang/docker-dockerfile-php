@@ -1,0 +1,3 @@
+# docker-dockerfile-php
+一个用于搭建php环境的docker的Dockerfile文件
+具体信息请查看about文件
